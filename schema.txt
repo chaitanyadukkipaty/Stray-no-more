@@ -1,0 +1,15 @@
+INSERT INTO ngos VALUES ('$name', '$email', '$contact', '$uid', '$address', '$lat', '$lon', '$pass')"
+
+
+CREATE TABLE request (Name varchar(255),Email varchar(255),Contact varchar(255),Incident varchar(255),Landmark varchar(255),Latitude DOUBLE(255,5),Longitude DOUBLE(255,5));
+
+CREATE TABLE ngos (
+    Name varchar(255),
+    Email varchar(255),
+    Contact varchar(255),
+    Uid varchar(255),
+    Address varchar(255),
+    Latitude DOUBLE(255,5),
+    Longitude DOUBLE(255,5),
+    password varchar(255)
+);
